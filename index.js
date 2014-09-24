@@ -58,7 +58,7 @@ function tick() {
             warn('will not send when simulate is enabled')
             return done()
         }
-        bitcoin.sendToAddress(argv.destination, size, function(err, hash) {
+        bitcoin.sendToAddress(argv.destination, +size, function(err, hash) {
             if (err) return done(err)
             console.log('Sent %s to %s: %s', size, argv.destination, hash)
             done()
