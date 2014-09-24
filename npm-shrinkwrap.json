@@ -1,0 +1,20 @@
+{
+  "name": "bitcoin-drain",
+  "version": "1.0.0",
+  "dependencies": {
+    "bitcoin": {
+      "version": "2.2.0",
+      "from": "bitcoin@^2.2.0",
+      "resolved": "https://registry.npmjs.org/bitcoin/-/bitcoin-2.2.0.tgz"
+    },
+    "lodash": {
+      "version": "2.4.1",
+      "from": "lodash@^2.4.1"
+    },
+    "yargs": {
+      "version": "1.3.1",
+      "from": "yargs@^1.3.1",
+      "resolved": "https://registry.npmjs.org/yargs/-/yargs-1.3.1.tgz"
+    }
+  }
+}
