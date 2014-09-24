@@ -1,0 +1,16 @@
+{
+  "name": "bitcoin-drain",
+  "version": "1.0.0",
+  "description": "Send bitcoin when the wallet balance exceeds a set amount",
+  "main": "index.js",
+  "bin": {
+      "bitcoin-drain": "./index.js"
+  },
+  "dependencies": {
+    "bitcoin": "^2.2.0",
+    "lodash": "^2.4.1",
+    "yargs": "^1.3.1"
+  },
+  "author": "Andreas Brekken <a@abrkn.com>",
+  "license": "ISC"
+}
